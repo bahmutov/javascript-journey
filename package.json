@@ -4,8 +4,7 @@
   "description": "Source examples for blog post Journey from procedural to reactive JavaScript with stops",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "commit-wizard"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -33,11 +32,8 @@
       "post-merge": []
     }
   },
-  "czConfig": {
-    "path": "node_modules/pre-git/node_modules/cz-conventional-changelog"
-  },
   "devDependencies": {
     "mocha": "2.3.3",
-    "pre-git": "1.2.5"
+    "pre-git": "1.2.8"
   }
 }
