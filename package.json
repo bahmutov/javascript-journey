@@ -27,7 +27,11 @@
   "config": {
     "pre-git": {
       "commit-msg": "validate-commit-msg",
-      "pre-commit": [],
+      "pre-commit": [
+        "node src/00-procedural.js",
+        "node src/01-procedural-with-reuse.js",
+        "node src/02-oo.js"
+      ],
       "pre-push": [],
       "post-commit": [],
       "post-merge": []
