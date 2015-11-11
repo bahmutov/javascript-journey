@@ -1,0 +1,43 @@
+{
+  "name": "javascript-journey",
+  "version": "1.0.0",
+  "description": "Source examples for blog post Journey from procedural to reactive JavaScript with stops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "commit-wizard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/javascript-journey.git"
+  },
+  "keywords": [
+    "example",
+    "javascript",
+    "blog",
+    "post"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/javascript-journey/issues"
+  },
+  "homepage": "https://github.com/bahmutov/javascript-journey",
+  "private": true,
+  "config": {
+    "pre-git": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": [],
+      "pre-push": [],
+      "post-commit": [],
+      "post-merge": []
+    }
+  },
+  "czConfig": {
+    "path": "node_modules/pre-git/node_modules/cz-conventional-changelog"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "pre-git": "1.2.4"
+  }
+}
