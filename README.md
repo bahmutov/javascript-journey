@@ -12,6 +12,7 @@ Then execute individual files using `node src/<filename>` command. The following
 implementations are available
 
 * [procedural](src/00-procedural.js)
+* [procedural with individual functions](src/01-procedural-with-reuse.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
