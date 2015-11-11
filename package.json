@@ -38,6 +38,6 @@
     "pre-git": "1.2.11"
   },
   "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+    "path": "node_modules/pre-git/node_modules/cz-conventional-changelog"
   }
 }
