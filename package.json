@@ -37,7 +37,8 @@
         "node src/06-promises-sequence.js",
         "node src/07-events.js",
         "node src/08-events-decoupled.js",
-        "node src/09-step-emitters.js"
+        "node src/09-step-emitters.js",
+        "node src/10-reactive.js"
       ],
       "pre-push": [],
       "post-commit": [],
@@ -54,6 +55,7 @@
   "dependencies": {
     "lazy.js": "0.4.2",
     "lodash": "2.4.1",
-    "q": "1.4.1"
+    "q": "1.4.1",
+    "rx": "4.0.6"
   }
 }
