@@ -4,6 +4,15 @@
 
 [![Build status][ci-image] ][ci-url]
 
+Problem: given a list of numbers, multiply each one by a constant
+and print the result.
+
+```js
+var numbers = [3, 1, 7];
+var constant = 2;
+// expected output [6, 2, 14]
+```
+
 To install and run
 
     git clone git@github.com:bahmutov/javascript-journey.git
