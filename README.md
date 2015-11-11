@@ -2,6 +2,8 @@
 
 > Companion source code to [Journey from procedural to reactive JavaScript with stops][post]
 
+[![Build status][ci-image] ][ci-url]
+
 To install and run
 
     git clone git@github.com:bahmutov/javascript-journey.git
@@ -60,3 +62,6 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+[ci-image]: https://travis-ci.org/bahmutov/javascript-journey.png?branch=master
+[ci-url]: https://travis-ci.org/bahmutov/javascript-journey
