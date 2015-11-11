@@ -34,7 +34,8 @@
         "node src/03-functional.js",
         "node src/04-lazy.js",
         "node src/05-promises.js",
-        "node src/06-promises-sequence.js"
+        "node src/06-promises-sequence.js",
+        "node src/07-events.js"
       ],
       "pre-push": [],
       "post-commit": [],

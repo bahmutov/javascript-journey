@@ -20,6 +20,7 @@ implementations are available
 * [lazy async sequence](src/04-lazy.js)
 * [promises in parallel](src/05-promises.js)
 * [promises in sequence](src/06-promises-sequence.js)
+* [events](src/07-events.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
