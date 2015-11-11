@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "mocha": "2.3.3",
-    "pre-git": "1.2.4"
+    "pre-git": "1.2.5"
   }
 }
