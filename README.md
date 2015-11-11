@@ -14,6 +14,8 @@ implementations are available
 * [procedural](src/00-procedural.js)
 * [procedural with individual functions](src/01-procedural-with-reuse.js)
 * [object-oriented](src/02-oo.js)
+* [function using lodash](src/03-functional.js)
+* [lazy async sequence](src/04-lazy.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
