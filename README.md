@@ -16,7 +16,8 @@ implementations are available
 * [object-oriented](src/02-oo.js)
 * [function using lodash](src/03-functional.js)
 * [lazy async sequence](src/04-lazy.js)
-* [promises](src/05-promises.js)
+* [promises in parallel](src/05-promises.js)
+* [promises in sequence](src/06-promises-sequence.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
