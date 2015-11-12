@@ -8,9 +8,21 @@ function print(n) {
   console.log(n);
 }
 
-var _ = require('lodash');
-var byConstant = _.partial(mul, constant);
-_(numbers)
-  .map(byConstant)
-  .forEach(print);
+var byConstant = mul.bind(null, constant);
+
+function map(array, cb) {
+  var result = [];
+  for (var k = 0; k < array.length; k += 1) {
+    result[k] = cb(array[k]);
+  }
+  return result;
+}
+
+function forEach(array, cb) {
+  for (var k = 0; k < array.length; k += 1) {
+    cb(array[k]);
+  }
+}
+
+forEach(map(numbers, byConstant), print);
 // 6 2 14
