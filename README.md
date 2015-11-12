@@ -36,6 +36,7 @@ implementations are available
 * [events with decoupled code](src/08-events-decoupled.js)
 * [each step creates new emitter](src/09-step-emitters.js)
 * [reactive](src/10-reactive.js)
+* [generators](src/11-generators.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 

@@ -44,7 +44,8 @@
         "node src/07-events.js",
         "node src/08-events-decoupled.js",
         "node src/09-step-emitters.js",
-        "node src/10-reactive.js"
+        "node src/10-reactive.js",
+        "node --harmony src/11-generators.js"
       ],
       "pre-push": [],
       "post-commit": [],
