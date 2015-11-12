@@ -1,13 +1,29 @@
 var numbers = [3, 1, 7];
 var constant = 2;
 
-function mul(a, b) {
-  return a * b;
+// constructor
+function NumberMultiplier() {}
+
+// prototype methods
+NumberMultiplier.prototype.setNumbers = function (numbers) {
+  this.numbers = numbers;
+  return this;
+};
+
+NumberMultiplier.prototype.multiply = function (constant) {
+  for (var k = 0; k < this.numbers.length; k += 1) {
+    this.numbers[k] = constant * this.numbers[k];
+  }
+  return this;
 }
-function print(n) {
-  console.log(n);
-}
-numbers.map(function (n) {
-  return mul(n, constant);
-}).forEach(print);
-// 6 2 14
+
+NumberMultiplier.prototype.print = function () {
+  console.log(this.numbers);
+  return this;
+};
+
+new NumberMultiplier()
+  .setNumbers(numbers)
+  .multiply(constant)
+  .print();
+// [ 6, 2, 14 ]

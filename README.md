@@ -25,6 +25,7 @@ implementations are available
 * [procedural](src/00-procedural.js)
 * [procedural with individual functions](src/01-procedural-with-reuse.js)
 * [object-oriented](src/02-oo.js)
+* [object-oriented using Array methods](src/02-oo-with-array-methods.js)
 * [functional](src/03-functional.js)
 * [functional using lodash](src/03-functional-with-lodash.js)
 * [functional using Ramda](src/03-functional-with-ramda.js)
