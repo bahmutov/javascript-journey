@@ -1,3 +1,4 @@
+// run with --harmony flag
 var numbers = [3, 1, 7];
 var constant = 2;
 
