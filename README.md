@@ -27,6 +27,7 @@ implementations are available
 * [object-oriented](src/02-oo.js)
 * [functional](src/03-functional.js)
 * [functional using lodash](src/03-functional-with-lodash.js)
+* [functional using Ramda](src/03-functional-with-ramda.js)
 * [lazy async sequence](src/04-lazy.js)
 * [promises in parallel](src/05-promises.js)
 * [promises in sequence](src/06-promises-sequence.js)
