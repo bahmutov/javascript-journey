@@ -37,6 +37,7 @@ implementations are available
 * [each step creates new emitter](src/09-step-emitters.js)
 * [reactive](src/10-reactive.js)
 * [generators](src/11-generators.js)
+* [streams](src/12-streams.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 

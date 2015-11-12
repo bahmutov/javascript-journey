@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./.git/hooks/pre-commit -f",
-    "commit": "commit-wizard"
+    "commit": "git-issues && commit-wizard",
+    "issues": "git-issues"
   },
   "engines": {
     "npm": "3"
@@ -45,7 +46,8 @@
         "node src/08-events-decoupled.js",
         "node src/09-step-emitters.js",
         "node src/10-reactive.js",
-        "node --harmony src/11-generators.js"
+        "node --harmony src/11-generators.js",
+        "node src/12-streams.js"
       ],
       "pre-push": [],
       "post-commit": [],
@@ -53,6 +55,7 @@
     }
   },
   "devDependencies": {
+    "git-issues": "1.1.0",
     "pre-git": "1.2.11"
   },
   "czConfig": {

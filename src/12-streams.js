@@ -40,13 +40,38 @@ NumberStream.prototype._read = function _read() {
   }
 };
 
+// I like ending stream references with "_"
 var numbers_ = new NumberStream(numbers);
 
-// to just print the numbers
+// to just print the numbers do the following
 /*
 numbers_.on('data', print);
 numbers_.on('end', function () {
   console.log('numbers stream finished');
 });*/
+
+// number multiplier stream
+var Transform = require('stream').Transform;
+util.inherits(MultiplierStream, Transform);
+
+function MultiplierStream(constant) {
+  Transform.call(this, {
+    objectMode: true
+  });
+  this.constant = constant;
+}
+
+MultiplierStream.prototype._transform =
+  function _transform(data, encoding, callback) {
+    this.push(data * this.constant);
+    callback();
+  };
+
+var multiplier_ = new MultiplierStream(constant);
+
+numbers_
+  .pipe(multiplier_)
+  .on('data', print);
+
 
 
