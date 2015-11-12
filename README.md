@@ -38,6 +38,7 @@ implementations are available
 * [reactive](src/10-reactive.js)
 * [generators](src/11-generators.js)
 * [streams](src/12-streams.js)
+* [transducers](src/13-transducers.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
