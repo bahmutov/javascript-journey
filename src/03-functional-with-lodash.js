@@ -10,7 +10,9 @@ function print(n) {
 
 var _ = require('lodash');
 var byConstant = _.partial(mul, constant);
-_(numbers)
-  .map(byConstant)
-  .forEach(print);
+
+_.forEach(
+  _.map(numbers, byConstant),
+  print
+);
 // 6 2 14
