@@ -72,6 +72,9 @@ var multiplier_ = new MultiplierStream(constant);
 numbers_
   .pipe(multiplier_)
   .on('data', print);
+// 6
+// 2
+// 14
 
 
 
