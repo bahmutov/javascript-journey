@@ -39,6 +39,7 @@
         "node src/03-functional.js",
         "node src/03-functional-with-lodash.js",
         "node src/03-functional-with-ramda.js",
+        "node src/03-point-free.js",
         "node src/04-lazy.js",
         "node src/05-promises.js",
         "node src/06-promises-sequence.js",
