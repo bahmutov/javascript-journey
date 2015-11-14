@@ -15,7 +15,7 @@ NumberMultiplier.prototype.multiply = function (constant) {
     this.numbers[k] = constant * this.numbers[k];
   }
   return this;
-}
+};
 
 NumberMultiplier.prototype.print = function () {
   console.log(this.numbers);
