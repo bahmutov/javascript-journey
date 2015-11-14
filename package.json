@@ -37,6 +37,7 @@
         "node src/02-oo.js",
         "node src/02-oo-with-array-methods.js",
         "node src/03-functional.js",
+        "node src/03-functional-compose.js",
         "node src/03-functional-with-lodash.js",
         "node src/03-functional-with-ramda.js",
         "node src/03-point-free.js",

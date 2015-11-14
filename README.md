@@ -27,6 +27,7 @@ implementations are available
 * [object-oriented](src/02-oo.js)
 * [object-oriented using Array methods](src/02-oo-with-array-methods.js)
 * [functional](src/03-functional.js)
+* [functional compose](src/03-functional-compose.js)
 * [functional using lodash](src/03-functional-with-lodash.js)
 * [functional using Ramda](src/03-functional-with-ramda.js)
 * [point-free](src/03-point-free.js)
