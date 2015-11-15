@@ -26,6 +26,7 @@ implementations are available
 * [procedural with individual functions](src/01-procedural-with-reuse.js)
 * [object-oriented](src/02-oo.js)
 * [object-oriented using Array methods](src/02-oo-with-array-methods.js)
+* [object-oriented using ES6 class](src/02-oo-es6.js)
 * [functional](src/03-functional.js)
 * [functional compose](src/03-functional-compose.js)
 * [functional using lodash](src/03-functional-with-lodash.js)
