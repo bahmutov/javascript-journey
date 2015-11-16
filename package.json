@@ -51,7 +51,8 @@
         "node --harmony src/11-generators.js",
         "node src/12-streams.js",
         "node src/13-transducers.js",
-        "node src/14-dependency-injection.js"
+        "node src/14-dependency-injection.js",
+        "node src/15-immutable.js"
       ],
       "pre-push": [],
       "post-commit": [],
@@ -72,6 +73,7 @@
     "q": "1.4.1",
     "ramda": "0.18.0",
     "rx": "4.0.6",
+    "seamless-immutable": "4.0.2",
     "transducers-js": "0.4.174"
   }
 }

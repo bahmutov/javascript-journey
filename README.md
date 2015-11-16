@@ -43,6 +43,7 @@ implementations are available
 * [streams](src/12-streams.js)
 * [transducers](src/13-transducers.js)
 * [dependency injection](src/14-dependency-injection.js)
+* [immutable data](src/15-immutable.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
