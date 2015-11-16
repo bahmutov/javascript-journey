@@ -25,6 +25,7 @@ implementations are available
 * [procedural](src/00-procedural.js)
 * [procedural with individual functions](src/01-procedural-with-reuse.js)
 * [object-oriented](src/02-oo.js)
+* [object-oriented using plain prototype object](src/02-oo-plain-prototype-object.js)
 * [object-oriented using Array methods](src/02-oo-with-array-methods.js)
 * [object-oriented using ES6 class](src/02-oo-es6.js)
 * [functional](src/03-functional.js)
