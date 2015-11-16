@@ -42,6 +42,7 @@ implementations are available
 * [generators](src/11-generators.js)
 * [streams](src/12-streams.js)
 * [transducers](src/13-transducers.js)
+* [dependency injection](src/14-dependency-injection.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
