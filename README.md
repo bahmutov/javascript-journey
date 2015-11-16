@@ -45,6 +45,7 @@ implementations are available
 * [transducers](src/13-transducers.js)
 * [dependency injection](src/14-dependency-injection.js)
 * [immutable data](src/15-immutable.js)
+* [async await](src/16-async-await.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 

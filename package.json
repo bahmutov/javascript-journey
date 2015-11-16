@@ -53,7 +53,8 @@
         "node src/12-streams.js",
         "node src/13-transducers.js",
         "node src/14-dependency-injection.js",
-        "node src/15-immutable.js"
+        "node src/15-immutable.js",
+        "node src/16-async-await.js"
       ],
       "pre-push": [],
       "post-commit": [],
@@ -68,6 +69,7 @@
     "path": "node_modules/cz-conventional-changelog"
   },
   "dependencies": {
+    "asyncawait": "1.0.1",
     "heroin": "0.5.0",
     "lazy.js": "0.4.2",
     "lodash": "3.10.1",
