@@ -15,3 +15,11 @@ var printEach = R.forEach(print);
 var algorithm = R.pipe(mapByConstant, printEach);
 algorithm(numbers);
 // 6 2 14
+
+// even shorter for this simple case
+// is to rely on curried functions
+R.pipe(
+  R.map(R.multiply(constant)),
+  R.forEach(print)
+)(numbers);
+// 6 2 14
