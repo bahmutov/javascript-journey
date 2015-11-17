@@ -54,7 +54,8 @@
         "node src/13-transducers.js",
         "node src/14-dependency-injection.js",
         "node src/15-immutable.js",
-        "node src/16-async-await.js"
+        "node src/16-async-await.js",
+        "node src/17-asm.js"
       ],
       "pre-push": [],
       "post-commit": [],

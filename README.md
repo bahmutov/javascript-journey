@@ -46,6 +46,7 @@ implementations are available
 * [dependency injection](src/14-dependency-injection.js)
 * [immutable data](src/15-immutable.js)
 * [async await](src/16-async-await.js)
+* [asm.js](src/17-asm.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
