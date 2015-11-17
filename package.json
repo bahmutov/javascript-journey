@@ -53,8 +53,8 @@
         "node src/12-streams.js",
         "node src/13-transducers.js",
         "node src/14-dependency-injection.js",
-        "node src/15-immutable.js",
-        "node src/15-immutable-redux.js",
+        "node src/15-immutable-using-immutable.js",
+        "node src/15-immutable-using-seamless.js",
         "node src/16-async-await.js",
         "node src/17-asm.js"
       ],

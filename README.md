@@ -44,8 +44,8 @@ implementations are available
 * [streams](src/12-streams.js)
 * [transducers](src/13-transducers.js)
 * [dependency injection](src/14-dependency-injection.js)
-* [immutable data](src/15-immutable.js)
-* [immutable using redux approach](src/15-immutable-redux.js)
+* [immutable data using seamless-immutable](src/15-immutable-using-seamless.js)
+* [immutable data using immutable.js](src/15-immutable-using-immutable.js)
 * [async await](src/16-async-await.js)
 * [asm.js](src/17-asm.js)
 
