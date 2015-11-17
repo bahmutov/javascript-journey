@@ -55,6 +55,7 @@
         "node src/14-dependency-injection.js",
         "node src/15-immutable-using-immutable.js",
         "node src/15-immutable-using-seamless.js",
+        "node src/15-immutable-with-redux.js",
         "node src/16-async-await.js",
         "node src/17-asm.js"
       ],
@@ -78,6 +79,7 @@
     "lodash": "3.10.1",
     "q": "1.4.1",
     "ramda": "0.18.0",
+    "redux": "3.0.4",
     "rx": "4.0.6",
     "seamless-immutable": "4.0.2",
     "transducers-js": "0.4.174"

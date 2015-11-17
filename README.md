@@ -46,6 +46,7 @@ implementations are available
 * [dependency injection](src/14-dependency-injection.js)
 * [immutable data using seamless-immutable](src/15-immutable-using-seamless.js)
 * [immutable data using immutable.js](src/15-immutable-using-immutable.js)
+* [immutable using Redux pattern](src/15-immutable-with-redux.js)
 * [async await](src/16-async-await.js)
 * [asm.js](src/17-asm.js)
 
