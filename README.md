@@ -32,7 +32,7 @@ implementations are available
 * [functional compose](src/03-functional-compose.js)
 * [functional using lodash](src/03-functional-with-lodash.js)
 * [functional using Ramda](src/03-functional-with-ramda.js)
-* [functional using LispyScript](src/03-functional-lispyscript.ls) [reference](http://lispyscript.com/)
+* [functional using LispyScript](src/03-functional-lispyscript.ls), see [reference](http://lispyscript.com/)
 * [point-free](src/03-point-free.js)
 * [lazy async sequence](src/04-lazy.js)
 * [promises in parallel](src/05-promises.js)
