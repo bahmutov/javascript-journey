@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./.git/hooks/pre-commit -f",
     "commit": "git-issues && commit-wizard",
-    "issues": "git-issues"
+    "issues": "git-issues",
+    "lispy": "./node_modules/lispyscript/bin/lispy.js src/03-functional-lispyscript.ls && node src/03-functional-lispyscript.js"
   },
   "engines": {
     "npm": "3"
@@ -41,6 +42,7 @@
         "node src/03-functional-compose.js",
         "node src/03-functional-with-lodash.js",
         "node src/03-functional-with-ramda.js",
+        "npm run lispy",
         "node src/03-point-free.js",
         "node src/04-lazy.js",
         "node src/05-promises.js",
@@ -76,6 +78,7 @@
     "heroin": "0.5.0",
     "immutable": "3.7.5",
     "lazy.js": "0.4.2",
+    "lispyscript": "^1.0.1",
     "lodash": "3.10.1",
     "q": "1.4.1",
     "ramda": "0.18.0",
