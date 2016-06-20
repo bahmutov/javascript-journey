@@ -39,6 +39,7 @@
         "node src/02-oo-plain-prototype-object.js",
         "node src/02-oo-with-array-methods.js",
         "node src/03-functional.js",
+        "node src/03-functional-recursive.js",
         "node src/03-functional-compose.js",
         "node src/03-functional-with-lodash.js",
         "node src/03-functional-with-ramda.js",
