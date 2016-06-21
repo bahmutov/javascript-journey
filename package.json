@@ -31,7 +31,7 @@
   "private": true,
   "config": {
     "pre-git": {
-      "commit-msg": "validate-commit-msg",
+      "commit-msg": "simple",
       "pre-commit": [
         "node src/00-procedural.js",
         "node src/01-procedural-with-reuse.js",
@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "git-issues": "1.1.0",
-    "pre-git": "1.2.11"
+    "pre-git": "3.9.1"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
