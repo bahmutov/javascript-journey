@@ -51,6 +51,7 @@ implementations are available
 * [immutable using Redux pattern](src/15-immutable-with-redux.js)
 * [async await](src/16-async-await.js)
 * [asm.js](src/17-asm.js)
+* [Maybe monad](src/18-maybe-monad.js)
 
 [post]: http://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/
 
@@ -94,5 +95,5 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-[ci-image]: https://travis-ci.org/bahmutov/javascript-journey.png?branch=master
+[ci-image]: https://travis-ci.org/bahmutov/javascript-journey.svg?branch=master
 [ci-url]: https://travis-ci.org/bahmutov/javascript-journey
